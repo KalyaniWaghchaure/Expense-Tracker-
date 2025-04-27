@@ -7,12 +7,8 @@ This document outlines the architecture and data flow of the Expense Tracker app
 The Expense Tracker application follows a full-stack MERN (MongoDB, Express.js, React, Node.js) architecture with separate frontend and backend components communicating via RESTful API calls.
 
 ```
-+----------------+         +------------------+         +------------------+
-|                |         |                  |         |                  |
-|  React         |  HTTP   |  Express.js      |  Query  |  MongoDB         |
-|  Frontend      | <-----> |  Backend API     | <-----> |  Database        |
-|                |         |                  |         |                  |
-+----------------+         +------------------+         +------------------+
+ React          HTTP     Express.js        Query    MongoDB         
+Frontend      <----->    Backend API      <----->   Database    
 ```
 
 ## Frontend Architecture
